@@ -43,13 +43,8 @@ adata_all = adata_all[adata_all.obs.scDblFinder_class ==1]
 ---------------------------------------Cell-type-marker-genes--------------------------------------
 ###################################################################################################
 """
-"""
-MAKE A GENE LIST to Exclude DOUBLETS
-meaning 1-2genes per celltypse to visualize doublets
 
-"""
 
-#[x for x in adata_all.var.index if "RORC" in x]
 
 
 
